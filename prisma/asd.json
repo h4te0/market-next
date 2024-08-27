@@ -1,0 +1,5989 @@
+{
+  "uri": "morozilnik-ava-cfr-100w-276419",
+  "sku": "276419",
+  "title": "Морозильная камера ларь AVA CFR-100W",
+  "images": [
+    "morozilnik_ava_cfr_100w_276419_1a",
+    "morozilnik_ava_cfr_100w_276419_2a",
+    "morozilnik_ava_cfr_100w_276419_3a",
+    "morozilnik_ava_cfr_100w_276419_4a",
+    "morozilnik_ava_cfr_100w_276419_5a",
+    "morozilnik_ava_cfr_100w_276419_6a",
+    "morozilnik_ava_cfr_100w_276419_7a",
+    "morozilnik_ava_cfr_100w_276419_8a",
+    "morozilnik_ava_cfr_100w_276419_9a",
+    "morozilnik_ava_cfr_100w_276419_te"
+  ],
+  "color": {
+    "code": "belyy",
+    "title": "белый",
+    "color_type": 0,
+    "hex": "#FAF7FA"
+  },
+  "categories": ["morozil-nye-kamery", "hranenie-produktov-i-napitkov", "bytovaja-tehnika"],
+  "categories_ru": ["Морозильные камеры", "Хранение продуктов и напитков", "Бытовая техника"],
+  "categories_kz": ["Морозильные камеры", "Азық-түлік пен сусындар сақтау", "Тұрмыстық техника"],
+  "short_description": [
+    {
+      "title": "Тип морозильника",
+      "code": "cl_freezers_main_spec___vid_morozilnika",
+      "value": "Ларь",
+      "is_active": false,
+      "display_type": "",
+      "description": "",
+      "show_description": false
+    },
+    {
+      "title": "Полезный объем, л",
+      "code": "cl_freezers_main_spec___poleznii_obem",
+      "value": "99",
+      "is_active": false,
+      "display_type": "",
+      "description": "",
+      "show_description": false
+    },
+    {
+      "title": "Тип управления",
+      "code": "cl_freezers_main_spec___394",
+      "value": "Механический",
+      "is_active": false,
+      "display_type": "",
+      "description": "",
+      "show_description": false
+    },
+    {
+      "title": "Высота, см",
+      "code": "cl_freezers_gabariti___54",
+      "value": "85",
+      "is_active": false,
+      "display_type": "",
+      "description": "",
+      "show_description": false
+    }
+  ],
+  "attributes": [
+    {
+      "code": "cl_freezers_main_spec",
+      "title": "Основные характеристики",
+      "is_active": true,
+      "items": [
+        {
+          "title": "Хладагент",
+          "code": "cl-freezers-main-spec-829",
+          "value": "R600a",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "attribute_values": "r600a"
+        },
+        {
+          "title": "Климатический класс",
+          "code": "cl-freezers-main-spec-climate-class",
+          "value": "N (от +16°С до +32°С)",
+          "is_active": false,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": true,
+          "attribute_values": "n-ot-16-s-do-32-s"
+        },
+        {
+          "title": "Полезный объем, л",
+          "code": "cl-freezers-main-spec-poleznii-obem",
+          "value": "99",
+          "is_active": true,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": false,
+          "attribute_values": "99"
+        },
+        {
+          "title": "Тип управления",
+          "code": "cl-freezers-main-spec-394",
+          "value": "Механический",
+          "is_active": false,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": true,
+          "attribute_values": "mekhanicheskiy"
+        },
+        {
+          "title": "Тип морозильника",
+          "code": "cl-freezers-main-spec-vid-morozilnika",
+          "value": "Ларь",
+          "is_active": true,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": true,
+          "attribute_values": "larjh"
+        }
+      ]
+    },
+    {
+      "code": "cl_freezers_energopotreblenie",
+      "title": "Энергопотребление",
+      "is_active": true,
+      "items": [
+        {
+          "title": "Класс энергопотребления",
+          "code": "cl-freezers-energopotreblenie-477",
+          "value": "A",
+          "is_active": true,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": false,
+          "attribute_values": "a"
+        }
+      ]
+    },
+    {
+      "code": "cl_freezers_morozilnaya_kamera",
+      "title": "Морозильная камера",
+      "is_active": true,
+      "items": [
+        {
+          "title": "Мощность заморозки, кг в cутки",
+          "code": "cl-freezers-morozilnaya-kamera-mochnost-zamorozki",
+          "value": "4.5",
+          "is_active": true,
+          "display_type": "range",
+          "description": "",
+          "show_description": true,
+          "attribute_values": "4-5"
+        },
+        {
+          "title": "Автономное сохранение холода, ч",
+          "code": "cl-freezers-morozilnaya-kamera-avtonomnoe-sohranenie-holoda",
+          "value": "20",
+          "is_active": false,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": false,
+          "attribute_values": "20"
+        }
+      ]
+    },
+    {
+      "code": "cl_nashi_promo",
+      "title": "Наши предложения",
+      "is_active": true,
+      "items": [
+        {
+          "title": "Наши предложения",
+          "code": "cl-nashi-promo-akcia",
+          "value": "Бонусы за отзывы",
+          "is_active": true,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": true,
+          "attribute_values": "bonusih-za-otzihvih"
+        }
+      ]
+    },
+    {
+      "code": "cl_freezers_gabariti",
+      "title": "Габариты",
+      "is_active": true,
+      "items": [
+        {
+          "title": "Высота, см",
+          "code": "cl-freezers-gabariti-54",
+          "value": "85",
+          "is_active": true,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": false,
+          "attribute_values": "85"
+        },
+        {
+          "title": "Ширина, см",
+          "code": "cl-freezers-gabariti-55",
+          "value": "55",
+          "is_active": true,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": true,
+          "attribute_values": "55"
+        },
+        {
+          "title": "Глубина, см",
+          "code": "cl-freezers-gabariti-56",
+          "value": "45",
+          "is_active": true,
+          "display_type": "checkbox",
+          "description": "",
+          "show_description": true,
+          "attribute_values": "45"
+        }
+      ]
+    }
+  ],
+  "cashback": 0,
+  "cashback_amount": "3499",
+  "url_videos": [],
+  "reviews": 35,
+  "rating": 100,
+  "positive_reviews_rate": 1,
+  "price": "69990",
+  "price_usd": "147.44",
+  "old_price": "94990",
+  "discount": "26",
+  "stickers": [
+    {
+      "title": "Бонусы за отзывы",
+      "id": "",
+      "slug": "bonus_for_review",
+      "text_color": "#ffffff",
+      "background_color": "#ffc700",
+      "priority": 1,
+      "image": "",
+      "description": "",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    },
+    {
+      "title": "0 - 0 - 24",
+      "id": "",
+      "slug": "installment_024",
+      "text_color": "#ffffff",
+      "background_color": "#f48012",
+      "priority": 2,
+      "image": "",
+      "description": "",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    }
+  ],
+  "about_url": "https://api.technodom.kz/katalog/api/v1/products/276419/about",
+  "is_enabled": true,
+  "variants": {
+    "colors": [
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "image": "morozilnik_ava_cfr_300w_276422_1a",
+        "is_available": true,
+        "price": 119990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "image": "morozilnik_ava_cfr_100w_276419_1a",
+        "is_available": true,
+        "price": 69990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "image": "morozilnik_ava_cfr_150w_276420_1a",
+        "is_available": true,
+        "price": 81990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "image": "morozilnik_ava_cfr_200w_276421_1a",
+        "is_available": true,
+        "price": 91990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "image": "morozilnik_ava_cfr_400w_276904_3",
+        "is_available": true,
+        "price": 169990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "image": "morozilnik_ava_cfr_250w_276903_1a",
+        "is_available": true,
+        "price": 104990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "image": "morozilnik_ava_cfr_500w_277683_1a",
+        "is_available": true,
+        "price": 229990,
+        "color": {
+          "code": "belyy",
+          "title": "белый",
+          "color_type": 0,
+          "hex": "#FAF7FA"
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276422",
+        "uri": "morozilnik-ava-cfr-300w-276422",
+        "is_available": true,
+        "price": 119990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "293",
+              "code": "293"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276419",
+        "uri": "morozilnik-ava-cfr-100w-276419",
+        "is_available": true,
+        "price": 69990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "99",
+              "code": "99_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276420",
+        "uri": "morozilnik-ava-cfr-150w-276420",
+        "is_available": true,
+        "price": 81990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "143",
+              "code": "143"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276421",
+        "uri": "morozilnik-ava-cfr-200w-276421",
+        "is_available": true,
+        "price": 91990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "198",
+              "code": "198_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276904",
+        "uri": "morozilnik-ava-cfr-400w-276904",
+        "is_available": true,
+        "price": 169990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "418",
+              "code": "418"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "276903",
+        "uri": "morozilnik-ava-cfr-250w-276903",
+        "is_available": true,
+        "price": 104990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "249",
+              "code": "249_0"
+            }
+          ]
+        }
+      },
+      {
+        "sku": "277683",
+        "uri": "morozilnik-ava-cfr-500w-277683",
+        "is_available": true,
+        "price": 229990,
+        "attribute": {
+          "title": "Полезный объем, л",
+          "code": "cl_freezers_main_spec___poleznii_obem",
+          "is_active": false,
+          "display_type": "",
+          "description": "",
+          "show_description": false,
+          "values": [
+            {
+              "value_ru": "508",
+              "code": "508"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "created": "2023-11-23T06:05:43Z",
+  "updated": "2024-08-02T18:51:57.583Z",
+  "is_available": true,
+  "type": "regular",
+  "stocks": [
+    "Аксукент",
+    "5f5f1e346a600b98a31fddb5",
+    "5f5f1e3b643d490d8a416160",
+    "5f5f1e3b4c8a49e692fefd70",
+    "5f5f1e3b4c8a49e692fefd71",
+    "5f5f1e3b643d490d8a416161",
+    "5f5f1e3b6a600b98a31fddb7",
+    "5f5f1e3b4c8a49e692fefd72",
+    "5f68807ac2768a3d3657ff06",
+    "5fab9a655add539b7e9b8477",
+    "5f5f1e3b4c8a49e692fefd73",
+    "5f5f1e3b4c8a49e692fefd74",
+    "5f5f1e3b643d490d8a416164",
+    "5f5f1e3b6a600b98a31fddba",
+    "5f5f1e3b643d490d8a416165",
+    "5fab996280f7a928e08344cb",
+    "5f5f1e3b6a600b98a31fddb6",
+    "5f5f1e3b6a600b98a31fddbb",
+    "5f5f1e3b4c8a49e692fefd75",
+    "5f5f1e3b6a600b98a31fddbc",
+    "5fab992abc0bfb0d8f112f95",
+    "5fab9a9c5add539b7e9b8478",
+    "5f5f1e3b4c8a49e692fefd76",
+    "5f5f1e3b643d490d8a416166",
+    "5f5f1e3b4c8a49e692fefd77",
+    "5f5f1e3b643d490d8a416167",
+    "5f5f1e3b6a600b98a31fddbd",
+    "5fab98e280f7a928e08344ca",
+    "5f5f1e3b643d490d8a416168",
+    "5fab9a125add539b7e9b8476",
+    "5f5f1e3b6a600b98a31fddbe",
+    "5f5f1e3b6a600b98a31fddbf",
+    "5f5f1e3b4c8a49e692fefd79",
+    "5fab9ba180f7a928e08344cd",
+    "5f5f1e3b643d490d8a41616a",
+    "5f5f1e3b6a600b98a31fddc0",
+    "600930cef4b9a255dd09aed9",
+    "608be0ba1bb9e95edaaaf6ec",
+    "608be05521c6f762fd1cb42f",
+    "608bdf441bb9e95edaaaf6eb",
+    "600930ce4d7e6eb485166a9d",
+    "600930cefb25bd59f9ecf8d2",
+    "600930cef4b9a255dd09aeda",
+    "600930cefb25bd59f9ecf8d3",
+    "600930d0f4b9a255dd09aedc",
+    "600930d2f4b9a255dd09aedd",
+    "600930d2fb25bd59f9ecf8d6",
+    "5f995c35efd7288907ceb789",
+    "600930d3fb25bd59f9ecf8d7",
+    "600930d0fb25bd59f9ecf8d4",
+    "600930d04d7e6eb485166aa1",
+    "600930d1fb25bd59f9ecf8d5",
+    "600930d34d7e6eb485166aa4",
+    "60f1257721c6f762fd1cb44d",
+    "61091d25d31d78ac4c9bde73",
+    "6110f428d31d78ac4c9bde7c",
+    "6125b874e21c1cc114e22e49",
+    "6125b7fe6ea67c96c31cde9c",
+    "612b177ec9971d6b4432cfa8",
+    "6133131dc9971d6b4432cfb1",
+    "615295a6efddba3e42283e7a",
+    "61568001aea98ca94ab17134",
+    "6169112470f6221fe8b26118",
+    "616911a1226f56a46a74648f",
+    "6180b7d33b0c7c6bd07f0020",
+    "618ddaf9886500531aa3c3fb",
+    "61b990b2585f590be3802fbe",
+    "61ce77d2bb7289ddf1eeb97b",
+    "61ce79779789d2450930a5ed",
+    "61ce7a6688771146df23f8fe",
+    "620a7c219335e48cfb3946e2",
+    "621e1f7f8f8f3ced598d16ca",
+    "6228334f0feac6957af96e66",
+    "62480b16b4a96227b1e53a95",
+    "6253a7dbb4a96227b1e53a9b",
+    "62554374a79a5b3f1e492896",
+    "625908c48fc8521ebc347ff4",
+    "627507b11c6c19e34051a203",
+    "5f5f1e3b6a600b98a31fddb9",
+    "600930d14d7e6eb485166aa2",
+    "5f5f1e3b4c8a49e692fefd78",
+    "5f5f1e3b643d490d8a416169",
+    "5fab982e5add539b7e9b8474",
+    "5f5f1e3b6a600b98a31fddb8",
+    "5fab989f5add539b7e9b8475",
+    "5f5f1e3b4c8a49e692fefd7a",
+    "5f5f1e3b643d490d8a416162",
+    "5f5f1e3b643d490d8a416163",
+    "608be10e21c6f762fd1cb430",
+    "600930cf4d7e6eb485166a9f",
+    "600930d24d7e6eb485166aa3",
+    "600930d04d7e6eb485166aa0",
+    "600930d0f4b9a255dd09aedb",
+    "600930d4f4b9a255dd09aede",
+    "60f1262b21c6f762fd1cb44e",
+    "60f126901bb9e95edaaaf701",
+    "60f13cc8feca0fc07c8fcb0c",
+    "61091a68821977f6db6bff92",
+    "61091e7bd31d78ac4c9bde74",
+    "6140817fc9971d6b4432cfb3",
+    "615bde10aea98ca94ab17138",
+    "615bdd82aea98ca94ab17136",
+    "615bdc4aefddba3e42283e7b",
+    "618ddaa8e2ff4e03736f4f13",
+    "61a5be052904ff07560a03d3",
+    "61a5bf69585f590be3802fb7",
+    "61a5bcf9fd04bbfca446b2b5",
+    "61a5b7622904ff07560a03d2",
+    "61a898c82904ff07560a03d9",
+    "61a89ad22904ff07560a03db",
+    "61b27cfe2904ff07560a03df",
+    "61b98f832904ff07560a03e6",
+    "61ce7b3dbb7289ddf1eeb97d",
+    "61df9e9c9789d2450930a5ef",
+    "61e642dabb7289ddf1eeb97f",
+    "6230986b57b8c4039b8dab72",
+    "6242861fb4a96227b1e53a77",
+    "62480ad2b4a96227b1e53a94",
+    "629f5091c7bdc0b54fa1de9d"
+  ],
+  "points_of_sale": [
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "600aa894fb25bd59f9ecf8de",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "65321e623ebba777d426102f",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "5f5f32f26a600b98a31fddee",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd73",
+      "service_point_id": "5f5f32f24c8a49e692fefdbe",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "61ce77d2bb7289ddf1eeb97b",
+      "service_point_id": "639af424d899f9f4c0d8c149",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "5f5f320a4c8a49e692fefdac",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "600aa899fb25bd59f9ecf8e4",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "60dd3313feca0fc07c8fcb05",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbe",
+      "service_point_id": "5f5f32f26a600b98a31fde03",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "600930d34d7e6eb485166aa4",
+      "service_point_id": "600aa8984d7e6eb485166aaf",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "5f5f32f24c8a49e692fefdb3",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416164",
+      "service_point_id": "5f5f320a643d490d8a416197",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd79",
+      "service_point_id": "6163fdda226f56a46a74648c",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "627507b11c6c19e34051a203",
+      "service_point_id": "62750a0f1c6c19e34051a204",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd76",
+      "service_point_id": "5f5f32f2643d490d8a4161b0",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416165",
+      "service_point_id": "5f5f32f24c8a49e692fefdc0",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "608be0ba1bb9e95edaaaf6ec",
+      "service_point_id": "608bd2f31bb9e95edaaaf6e9",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddb6",
+      "service_point_id": "5f5f32f24c8a49e692fefdc3",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e346a600b98a31fddb5",
+      "service_point_id": "5f5f320a4c8a49e692fefdaa",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a41616a",
+      "service_point_id": "61c9346688771146df23f8f4",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a41616a",
+      "service_point_id": "60a4abfc21c6f762fd1cb431",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416168",
+      "service_point_id": "62b9384c1c47673c9fd315ae",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddba",
+      "service_point_id": "5f5f32f2643d490d8a4161aa",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd73",
+      "service_point_id": "5f5f320a643d490d8a416196",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd72",
+      "service_point_id": "5f5f32f24c8a49e692fefdbc",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "5f5f32f24c8a49e692fefdb4",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "61b98f832904ff07560a03e6",
+      "service_point_id": "61b98ffc585f590be3802fbd",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbd",
+      "service_point_id": "5f5f320a4c8a49e692fefdae",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd75",
+      "service_point_id": "5f5f320a6a600b98a31fddea",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416167",
+      "service_point_id": "5f5f32f2643d490d8a4161b2",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "5f5f32f2643d490d8a41619d",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbd",
+      "service_point_id": "5f5f32f24c8a49e692fefdc8",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "600930cefb25bd59f9ecf8d3",
+      "service_point_id": "600aa897fb25bd59f9ecf8e2",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416166",
+      "service_point_id": "5f5f320a4c8a49e692fefdad",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a41616a",
+      "service_point_id": "609a677efeca0fc07c8fcaf5",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "5f5f32f24c8a49e692fefdb8",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd73",
+      "service_point_id": "61b732bfc326968211b46028",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "600930d2fb25bd59f9ecf8d6",
+      "service_point_id": "600aa88f4d7e6eb485166aa8",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd79",
+      "service_point_id": "5f5f320a643d490d8a416198",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddb8",
+      "service_point_id": "5f5f32f26a600b98a31fddf6",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbf",
+      "service_point_id": "5f5f32f2643d490d8a4161b5",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbd",
+      "service_point_id": "5f5f32f26a600b98a31fde02",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416161",
+      "service_point_id": "5f5f32f24c8a49e692fefdba",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e346a600b98a31fddb5",
+      "service_point_id": "5f5f32f2643d490d8a41619b",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd70",
+      "service_point_id": "5f5f32f26a600b98a31fdded",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a41616a",
+      "service_point_id": "5f5f32f24c8a49e692fefdce",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd77",
+      "service_point_id": "5f5f32f24c8a49e692fefdc7",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbf",
+      "service_point_id": "5f5f32f2643d490d8a4161b4",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd79",
+      "service_point_id": "5f5f32f2643d490d8a4161b6",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416161",
+      "service_point_id": "5f5f32f2643d490d8a4161a5",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "600930d24d7e6eb485166aa3",
+      "service_point_id": "600aa88cf4b9a255dd09aee3",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbf",
+      "service_point_id": "5f5f320a4c8a49e692fefdaf",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "61ce7b3dbb7289ddf1eeb97d",
+      "service_point_id": "61ce7ba3bb7289ddf1eeb97e",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416165",
+      "service_point_id": "5f5f32f26a600b98a31fddfa",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416160",
+      "service_point_id": "5f5f320a4c8a49e692fefdab",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd73",
+      "service_point_id": "5f5f32f26a600b98a31fddf7",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "61ce7a6688771146df23f8fe",
+      "service_point_id": "61ce7ab3bb7289ddf1eeb97c",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416161",
+      "service_point_id": "5f5f320a643d490d8a416195",
+      "service_point_type": "warehouse"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416160",
+      "service_point_id": "5f5f32f24c8a49e692fefdb1",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416161",
+      "service_point_id": "5f5f32f24c8a49e692fefdbb",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "6228334f0feac6957af96e66",
+      "service_point_id": "6222f2718f8f3ced598d16d0",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddb6",
+      "service_point_id": "5f5f32f2643d490d8a4161ab",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddb6",
+      "service_point_id": "5f5f32f24c8a49e692fefdc1",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddb6",
+      "service_point_id": "5f5f32f26a600b98a31fddfc",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "61091e7bd31d78ac4c9bde74",
+      "service_point_id": "61091f3b821977f6db6bff94",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbd",
+      "service_point_id": "5f5f32f26a600b98a31fde01",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "60f1257721c6f762fd1cb44d",
+      "service_point_id": "60f102c71bb9e95edaaaf700",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "61e642dabb7289ddf1eeb97f",
+      "service_point_id": "61e6438c9789d2450930a5f2",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd79",
+      "service_point_id": "5f5f32f24c8a49e692fefdcc",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd75",
+      "service_point_id": "5f5f32f26a600b98a31fddff",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "600930cf4d7e6eb485166a9f",
+      "service_point_id": "600aa895f4b9a255dd09aee7",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd74",
+      "service_point_id": "5f5f32f2643d490d8a4161a9",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a41616a",
+      "service_point_id": "5f5f32f26a600b98a31fde08",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416166",
+      "service_point_id": "5f5f32f24c8a49e692fefdc6",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b4c8a49e692fefd79",
+      "service_point_id": "5f5f32f26a600b98a31fde05",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416160",
+      "service_point_id": "5f5f32f26a600b98a31fddeb",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "621e1f7f8f8f3ced598d16ca",
+      "service_point_id": "621e20fd9335e48cfb3946f3",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416160",
+      "service_point_id": "62e76185f8d1343cca85c0b1",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddb6",
+      "service_point_id": "5f5f32f2643d490d8a4161ad",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "600930d0f4b9a255dd09aedc",
+      "service_point_id": "6397005a5ec4379d652792b9",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbb",
+      "service_point_id": "5f5f32f2643d490d8a4161ae",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "615295a6efddba3e42283e7a",
+      "service_point_id": "6152968470f6221fe8b260ff",
+      "service_point_type": "pickup"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbf",
+      "service_point_id": "5f5f32f26a600b98a31fde04",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b6a600b98a31fddbb",
+      "service_point_id": "5f5f32f2643d490d8a4161af",
+      "service_point_type": "store"
+    },
+    {
+      "city_id": "5f5f1e3b643d490d8a416166",
+      "service_point_id": "5f5f32f26a600b98a31fde00",
+      "service_point_type": "store"
+    }
+  ],
+  "brand": {
+    "title": "Ava",
+    "code": "ava"
+  },
+  "is_preorder": false,
+  "preorder_use_tradein": false,
+  "tradein_available": false,
+  "score": 0.816416018259948,
+  "only_prepayment": false,
+  "meta_data": {
+    "meta_title": "Морозильная камера ларь AVA CFR-100W - купить по лучшей цене в Алматы | интернет-магазин Технодом",
+    "meta_description": "【TECHNODOM】 НИЗКАЯ ЦЕНА + Скидки + Акции ❱【Морозильная камера ларь AVA CFR-100W】⭐ Оплата при получении ⚡ Бесплатная доставка ☝ в Алматы Самовывоз ►БОЛЬШОЙ Ассортимент ►Рассрочка до 0-0-24 ►Кредит ►Доставка в любую точку Казахстана",
+    "meta_header": "【TECHNODOM】 НИЗКАЯ ЦЕНА + Скидки + Акции ❱ Нашли дешевле? Вернем 110% стоимости! ✅ 【Купить Морозильная камера ларь AVA CFR-100W】 ⭐ Оплата при получении ⚡ Бесплатная доставка ☝ в Алматы Самовывоз ►БОЛЬШОЙ Ассортимент ►Нулевая Рассрочка ►Кредит ►Доставка в любую точку Казахстана.",
+    "seo_text": ""
+  },
+  "showcase": false,
+  "nomenclature_info": {
+    "name": "Морозильные лари",
+    "guid": "d5b96065-33e6-11e3-9858-00199999144e",
+    "code": "000000518"
+  },
+  "unit_measurement": {
+    "code": "",
+    "name": "",
+    "min_step": "0"
+  },
+  "promotions": [],
+  "view_count": 38388,
+  "realtime_view_count": 1,
+  "favorites_count": 0,
+  "dimensions": {
+    "weight": "22.0000",
+    "package_height": "55.0000",
+    "package_length": "40.0000",
+    "package_width": "88.0000"
+  },
+  "seo_redirects": [],
+  "promo_price_id": "",
+  "bonus_category": "A",
+  "instruction": "0/b/f/6/0bf64a6fc6594535e313665d904894fe69fa2d5e_AVA_CFR_100W__CFR_150W__CFR_200W__CFR_250W__CFR_300W__CFR_400W__CFR_500W_UM_FINAL__AVA_all_mode.pdf",
+  "-": [
+    {
+      "title": "",
+      "image": "",
+      "repaired": false,
+      "discount_percentage": 10,
+      "description": "Вмятина сбоку снизу",
+      "classifier": "A",
+      "completeness": "",
+      "serial_number": "CFR-100W24030493",
+      "city_id": "5f5f1e3b6a600b98a31fddb6",
+      "service_point_id": "5f5f32f24c8a49e692fefdc1",
+      "old_price": 0,
+      "new_price": 0
+    },
+    {
+      "title": "",
+      "image": "",
+      "repaired": false,
+      "discount_percentage": 10,
+      "description": "скол царапина",
+      "classifier": "A",
+      "completeness": "товар",
+      "serial_number": "SFR100W23120178",
+      "city_id": "5f5f1e3b643d490d8a416161",
+      "service_point_id": "5f5f32f26a600b98a31fddf4",
+      "old_price": 0,
+      "new_price": 0
+    },
+    {
+      "title": "",
+      "image": "",
+      "repaired": false,
+      "discount_percentage": 15,
+      "description": "Вмятина внизу сбоку",
+      "classifier": "B",
+      "completeness": "Полный",
+      "serial_number": "540N337790142261040309",
+      "city_id": "5f5f1e3b643d490d8a41616a",
+      "service_point_id": "5f5f32f24c8a49e692fefdce",
+      "old_price": 0,
+      "new_price": 0
+    }
+  ],
+  "has_defectives": false,
+  "is_180_plus": false,
+  "cashback_label": "до 3 499 бонусов",
+  "cashback_title": "Получай до 3% бонусов при оплате платежной картой или наличным расчетом",
+  "cashback_description": "🔥 для статуса Black до 5% бонусов при оплате платежной картой или наличным расчетом",
+  "show_add_to_favourite_notification": false
+}
