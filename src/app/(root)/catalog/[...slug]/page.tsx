@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 
-import type { Metadata } from 'next';
-
-import { prisma } from '../../../../../prisma/prisma-client';
+import { getCurrentCategories } from '@/shared/queries/get-current-categories';
+import { getProducts } from '@/shared/queries/get-products';
+import { getBrandBySlug } from '@/shared/queries/get-brand';
 
 import { Container } from '@/shared/components';
 import { ProductsList } from '@/shared/components/catalog/products-list';
@@ -14,71 +14,35 @@ import {
   BreadcrumbList,
   BreadcrumbSeparator,
 } from '@/shared/components/ui';
+import { ProductsPagination } from '@/shared/components/catalog/products-pagination';
 
-export const metadata: Metadata = {
-  title: '',
-  description: '',
-};
-
-const CatalogPage = async ({
-  params: { slug },
-  searchParams,
-}: {
+interface Props {
   params: { slug: string[] };
   searchParams: { [key: string]: string | undefined };
-}) => {
-  const currentCategory = await prisma.category.findFirst({
-    where: { slug: slug.at(-1) },
-    select: {
-      title: true,
-      slug: true,
-      parent: {
-        select: {
-          title: true,
-          slug: true,
-          parent: {
-            select: {
-              title: true,
-              slug: true,
-            },
-          },
-        },
-      },
-    },
-  });
+}
 
-  const products = await prisma.product.findMany({
-    where: {
-      categories: {
-        some: { slug: slug.at(-1) },
-      },
-    },
-  });
+export const generateMetadata = async ({ params: { slug }, searchParams }: Props) => {
+  const currentCategories = await getCurrentCategories(slug.at(-1));
+  const brand = await getBrandBySlug(searchParams?.brand);
+  return {
+    title: currentCategories.at(-1)?.title + ' ' + (searchParams.brand ? brand?.title : ''),
+  };
+};
 
-  const brand = await prisma.brand.findFirst({
-    where: {
-      slug: searchParams?.brand,
-    },
-  });
+const CatalogPage = async ({ params: { slug }, searchParams }: Props) => {
+  const pageNumber = Number(searchParams.page) > 0 ? Number(searchParams.page) : 1;
 
-  const currentCategories = [
-    {
-      id: 1,
-      title: currentCategory?.parent?.parent?.title,
-      slug: currentCategory?.parent?.parent?.slug,
-    },
-    {
-      id: 2,
-      title: currentCategory?.parent?.title,
-      slug: currentCategory?.parent?.slug,
-    },
-    {
-      id: 3,
-      title: currentCategory?.title,
-      slug: currentCategory?.slug,
-    },
-  ];
-  console.log(currentCategories);
+  const take = 8;
+  const skip = (pageNumber - 1) * take;
+
+  const currentCategory = slug.at(-1);
+  const currentCategories = await getCurrentCategories(currentCategory);
+  const {
+    data: products,
+    total,
+    metadata,
+  } = await getProducts({ slug: currentCategory, take, skip });
+  const brand = await getBrandBySlug(searchParams?.brand);
   return (
     <Container>
       <Breadcrumb className="mb-4">
@@ -103,13 +67,19 @@ const CatalogPage = async ({
           )}
         </BreadcrumbList>
       </Breadcrumb>
+
       <div className="grid grid-cols-12 gap-4">
         <Filters classname="col-span-3" />
-        <ProductsList
-          classname="col-span-9"
-          catalogTitle={currentCategory?.title + ' ' + (searchParams.brand ? brand?.title : '')}
-          products={products}
-        />
+        <div className="col-span-9">
+          <ProductsList
+            catalogTitle={
+              currentCategories.at(-1)?.title + ' ' + (searchParams.brand ? brand?.title : '')
+            }
+            total={total}
+            products={products}
+          />
+          <ProductsPagination classname="my-4" {...searchParams} {...metadata} />
+        </div>
       </div>
     </Container>
   );
