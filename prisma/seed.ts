@@ -1,6 +1,6 @@
 // import { categories } from './data';
 import { brands, products } from './data';
-import { prisma } from './prisma-client';
+import { prisma } from '../src/shared/api/prisma-client';
 import { hashSync } from 'bcrypt';
 
 async function up() {

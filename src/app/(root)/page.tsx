@@ -1,5 +1,10 @@
 import { Container, MainSlider } from '@/shared/components';
-import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Главная',
+  description: 'Next.js Market pet-project.',
+};
 
 export default function Home() {
   return (
