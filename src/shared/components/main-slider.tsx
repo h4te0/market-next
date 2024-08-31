@@ -2,7 +2,13 @@
 
 import Autoplay from 'embla-carousel-autoplay';
 
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/shared/components';
 
 export const MainSlider = () => {
   return (

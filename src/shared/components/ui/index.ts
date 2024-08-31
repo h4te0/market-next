@@ -14,3 +14,7 @@ export * from './skeleton';
 export * from './sonner';
 export * from './toggle-group';
 export * from './toggle';
+export * from './switch';
+export * from './accordion';
+export * from './title';
+export * from './range-slider';

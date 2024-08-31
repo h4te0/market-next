@@ -2,8 +2,7 @@ import { MapPin, Phone } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 
-import { Container } from './container';
-import { Button } from '../ui';
+import { Button, Container } from '@/shared/components';
 
 interface Props {
   className?: string;

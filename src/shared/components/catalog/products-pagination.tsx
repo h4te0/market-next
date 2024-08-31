@@ -1,3 +1,7 @@
+'use client';
+
+import { useSearchParams } from 'next/navigation';
+
 import { cn } from '@/lib/utils';
 
 import {
@@ -10,7 +14,7 @@ import {
 } from '../ui';
 
 interface Props {
-  page?: string;
+  page?: string | null;
   totalPages: number;
   hasNextPage: boolean;
   hasPrevPage: boolean;
@@ -18,9 +22,11 @@ interface Props {
 }
 
 export const ProductsPagination = (props: Props) => {
-  const { page = 1, totalPages, hasNextPage, hasPrevPage, classname } = props;
+  const { totalPages, hasNextPage, hasPrevPage, classname } = props;
 
-  const currentPage = Math.min(Math.max(Number(page), 1), totalPages);
+  const page = useSearchParams().get('page');
+  const currentPage = Math.min(Math.max(Number(page || 1), 1), totalPages);
+  const query = '&' + useSearchParams().toString();
 
   const getPagesToShow = () => {
     let startPage = currentPage - 2;
@@ -46,19 +52,19 @@ export const ProductsPagination = (props: Props) => {
       <PaginationContent className="w-full flex justify-center">
         <PaginationItem>
           <div className="w-10 h-10">
-            {hasPrevPage && <PaginationPrevious href={`?page=${currentPage - 1}`} />}
+            {hasPrevPage && <PaginationPrevious href={'?page=' + (currentPage - 1) + query} />}
           </div>
         </PaginationItem>
         {pages.map((page, i) => (
           <PaginationItem key={i}>
-            <PaginationLink href={`?page=${page}`} isActive={currentPage === page}>
+            <PaginationLink href={'?page=' + page + query} isActive={currentPage === page}>
               {page}
             </PaginationLink>
           </PaginationItem>
         ))}
         <PaginationItem>
           <div className="w-10 h-10">
-            {hasNextPage && <PaginationNext href={`?page=${currentPage + 1}`} />}
+            {hasNextPage && <PaginationNext href={'?page=' + (currentPage + 1) + query} />}
           </div>
         </PaginationItem>
       </PaginationContent>

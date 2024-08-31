@@ -5,14 +5,13 @@ import Image from 'next/image';
 import debounce from 'lodash.debounce';
 import { ChevronRight } from 'lucide-react';
 
-import { type CategoriesWithChildren, useCategories } from '@/shared/hooks/use-categories';
-
 import { cn } from '@/lib/utils';
 
-import { Container } from './container';
-import { Skeleton } from '@/shared/components/ui';
+import { Skeleton, Container } from '@/shared/components';
 
 import { paths } from '@/shared/consts/paths';
+
+import { type CategoriesWithChildren, useCategories } from '@/shared/hooks/use-categories';
 
 export const CategoriesMenu = () => {
   const { data: categories, isLoading } = useCategories();
@@ -23,7 +22,6 @@ export const CategoriesMenu = () => {
 
   useEffect(() => {
     categories && setCurrentCategory(categories[0]);
-    console.log(categories);
   }, [isLoading]);
 
   return (
@@ -82,7 +80,7 @@ export const CategoriesMenu = () => {
                       <Link
                         href={
                           `${paths.catalog}/${currentCategory.slug}/${subCategory.slug}/${children.slug}` +
-                          `${children.brand ? '?brand=' + children.brand.slug : ''}`
+                          `${children.brand ? '?brands=' + children.brand.slug : ''}`
                         }>
                         <p className="text-[12px] font-medium hover:text-primary">
                           {children.title}

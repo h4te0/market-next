@@ -3,46 +3,49 @@ import Link from 'next/link';
 
 import { getCurrentCategories } from '@/shared/queries/get-current-categories';
 import { getProducts } from '@/shared/queries/get-products';
-import { getBrandBySlug } from '@/shared/queries/get-brand';
+import { getBrandsByCategory } from '@/shared/queries/get-brands';
 
-import { Container } from '@/shared/components';
-import { ProductsList } from '@/shared/components/catalog/products-list';
-import { Filters } from '@/shared/components/catalog/filters';
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbList,
   BreadcrumbSeparator,
-} from '@/shared/components/ui';
-import { ProductsPagination } from '@/shared/components/catalog/products-pagination';
+  Container,
+} from '@/shared/components';
+
+import { capitalizeWord } from '@/shared/helpers/capitalize-word';
+import { Catalog } from '@/shared/components/catalog';
 
 interface Props {
   params: { slug: string[] };
   searchParams: { [key: string]: string | undefined };
 }
 
-export const generateMetadata = async ({ params: { slug }, searchParams }: Props) => {
+export const generateMetadata = async ({ params: { slug } }: Props) => {
   const currentCategories = await getCurrentCategories(slug.at(-1));
-  const brand = await getBrandBySlug(searchParams?.brand);
   return {
-    title: currentCategories.at(-1)?.title + ' ' + (searchParams.brand ? brand?.title : ''),
+    title: currentCategories.at(-1)?.title,
   };
 };
 
 const CatalogPage = async ({ params: { slug }, searchParams }: Props) => {
+  const currentCategorySlug = slug.at(-1);
+  const currentCategories = await getCurrentCategories(currentCategorySlug);
+  const currentBrandsInCategory = await getBrandsByCategory(currentCategorySlug);
+  const currentBrandsTitles = searchParams.brands
+    ?.split(',')
+    .map((w) => capitalizeWord(w))
+    .toString()
+    .replaceAll(',', ', ');
+
   const pageNumber = Number(searchParams.page) > 0 ? Number(searchParams.page) : 1;
 
-  const take = 8;
-  const skip = (pageNumber - 1) * take;
-
-  const currentCategory = slug.at(-1);
-  const currentCategories = await getCurrentCategories(currentCategory);
-  const {
-    data: products,
-    total,
-    metadata,
-  } = await getProducts({ slug: currentCategory, take, skip });
-  const brand = await getBrandBySlug(searchParams?.brand);
+  const { products, total, pagination, filters } = await getProducts({
+    slug: currentCategorySlug,
+    take: 8,
+    skip: (pageNumber - 1) * 8,
+    searchParams,
+  });
   return (
     <Container>
       <Breadcrumb className="mb-4">
@@ -68,19 +71,15 @@ const CatalogPage = async ({ params: { slug }, searchParams }: Props) => {
         </BreadcrumbList>
       </Breadcrumb>
 
-      <div className="grid grid-cols-12 gap-4">
-        <Filters classname="col-span-3" />
-        <div className="col-span-9">
-          <ProductsList
-            catalogTitle={
-              currentCategories.at(-1)?.title + ' ' + (searchParams.brand ? brand?.title : '')
-            }
-            total={total}
-            products={products}
-          />
-          <ProductsPagination classname="my-4" {...searchParams} {...metadata} />
-        </div>
-      </div>
+      <Catalog
+        productsListProps={{
+          products,
+          total,
+          catalogTitle: currentCategories.at(-1)?.title + ' ' + (currentBrandsTitles || ''),
+        }}
+        filterProps={{ ...filters, brands: currentBrandsInCategory }}
+        paginationProps={pagination}
+      />
     </Container>
   );
 };

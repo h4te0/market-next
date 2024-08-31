@@ -1,5 +1,6 @@
 import { Container, MainSlider } from '@/shared/components';
-import { Metadata } from 'next';
+
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Главная',
