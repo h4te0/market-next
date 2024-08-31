@@ -5,11 +5,10 @@ import Link from 'next/link';
 import { Heart, Scale, Search, ShoppingBasket, TextSearch, User, X } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
-import { paths } from '@/shared/consts/paths';
 
-import { Container } from './container';
-import { Button, Input } from '../ui';
-import { CategoriesMenu } from './categories-menu';
+import { CategoriesMenu, Container, Button, Input } from '@/shared/components';
+
+import { paths } from '@/shared/consts/paths';
 
 interface Props {
   className?: string;

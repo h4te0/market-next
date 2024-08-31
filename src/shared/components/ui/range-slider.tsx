@@ -10,10 +10,24 @@ type SliderProps = {
   formatLabel?: (value: number) => string;
   value: number[] | readonly number[];
   onValueChange?: (values: number[]) => void;
+  minTotal: number;
+  maxTotal: number;
 };
 
 const RangeSlider = React.forwardRef(
-  ({ className, step, formatLabel, value, onValueChange, ...props }: SliderProps, ref) => {
+  (
+    {
+      className,
+      step,
+      formatLabel,
+      value,
+      onValueChange,
+      minTotal,
+      maxTotal,
+      ...props
+    }: SliderProps,
+    ref,
+  ) => {
     const [min, setMin] = React.useState<number>(value[0]);
     const [max, setMax] = React.useState<number>(value[1]);
 
@@ -39,8 +53,8 @@ const RangeSlider = React.forwardRef(
     return (
       <SliderPrimitive.Root
         ref={ref as React.RefObject<HTMLDivElement>}
-        min={min}
-        max={max}
+        min={minTotal}
+        max={maxTotal}
         step={step}
         value={localValues}
         onValueChange={handleValueChange}

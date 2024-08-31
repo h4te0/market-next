@@ -2,8 +2,7 @@ import { cn } from '@/lib/utils';
 
 import { Product } from '@prisma/client';
 
-import { ProductItem } from '../product/product-item';
-import { Title } from '../ui/title';
+import { ProductItem, Title } from '@/shared/components';
 
 import { getNounByNumb } from '@/shared/helpers/get-noun-by-numb';
 
