@@ -1,12 +1,20 @@
 'use server';
 
-import { prisma } from '../api/prisma-client';
+import Cookies from 'js-cookie';
+
+import { prisma } from '@/shared/api/prisma-client';
+
+import type { CartItem, Product } from '@prisma/client';
 
 interface Props {
   slug: string | undefined;
   take: number;
   skip: number;
   searchParams: { [key: string]: string | undefined };
+}
+
+export interface IProductWithCart extends Product {
+  cartItems: CartItem[];
 }
 
 export interface IFilterProps {
@@ -63,10 +71,21 @@ export const getProducts = async ({ slug, take = 8, skip = 0, searchParams }: Pr
     },
   });
 
+  const token = Cookies.get('cartToken');
+
   const res = await prisma.product.findMany({
     take,
     skip,
     orderBy: { title: 'asc' },
+    include: {
+      cartItems: {
+        where: {
+          cart: {
+            token,
+          },
+        },
+      },
+    },
     where: {
       categories: {
         some: { slug: slug },

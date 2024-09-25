@@ -1,4 +1,4 @@
-import { prisma } from '../api/prisma-client';
+import { prisma } from '@/shared/api/prisma-client';
 
 export const getBrandsByCategory = async (slug: string | undefined) => {
   return prisma.brand.findMany({

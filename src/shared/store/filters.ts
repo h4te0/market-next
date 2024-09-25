@@ -5,7 +5,7 @@ export interface IPrices {
   max?: number;
 }
 
-interface FiltersStore {
+export interface FiltersStore {
   prices: IPrices;
   delivery?: boolean;
   brands: string[];
