@@ -4,12 +4,11 @@ import { cn } from '@/lib/utils';
 
 import { Accordion } from '../ui';
 
-import { PriceFilter } from './price-filter';
-import { BrandsFilter } from './brands-filter';
-import { DeliveryFilter } from './delivery-filter';
+import { PriceFilter, BrandsFilter, DeliveryFilter } from '@/shared/components';
+
+import { useFiltersStore } from '@/shared/store/filters';
 
 import type { Brand } from '@prisma/client';
-import { useFiltersStore } from '@/shared/store/filters';
 
 interface Props {
   classname?: string;
@@ -22,7 +21,6 @@ export const Filters = (props: Props) => {
   const { classname, brands, maxPrice, minPrice } = props;
 
   const filters = useFiltersStore();
-  console.log(filters);
 
   return (
     <div className={cn('bg-white px-4 py-6 rounded-2xl h-fit', classname)}>

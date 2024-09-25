@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useQuery } from '@tanstack/react-query';
 
-import { Category } from '@prisma/client';
+import type { Category } from '@prisma/client';
 
 export type CategoriesWithChildren = Category & {
   children: [

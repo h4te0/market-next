@@ -1,4 +1,4 @@
-export const getNounByNumb = (number: number, one: string, two: string, five: string): string => {
+export const getNounByCount = (number: number, one: string, two: string, five: string): string => {
   let n = Math.abs(number);
   n %= 100;
   if (n >= 5 && n <= 20) {

@@ -1,4 +1,4 @@
-import { prisma } from '../api/prisma-client';
+import { prisma } from '@/shared/api/prisma-client';
 
 export const getCurrentCategories = async (slug: string | undefined) => {
   const res = await prisma.category.findFirst({

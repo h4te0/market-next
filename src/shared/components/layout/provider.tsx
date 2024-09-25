@@ -1,8 +1,8 @@
 'use client';
 
-import React from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
+import { Toaster } from 'react-hot-toast';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -14,8 +14,9 @@ const queryClient = new QueryClient({
 
 const Provider = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
-      <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+    <QueryClientProvider client={queryClient}>
+      {children}
+      <Toaster position="bottom-right" reverseOrder={false} />
       <ProgressBar
         height="4px"
         color="#F97316"
@@ -23,7 +24,7 @@ const Provider = ({ children }: { children: React.ReactNode }) => {
         disableSameURL={false}
         shallowRouting
       />
-    </>
+    </QueryClientProvider>
   );
 };
 
