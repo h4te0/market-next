@@ -6,7 +6,8 @@ import { Accordion } from '../ui';
 
 import { PriceFilter, BrandsFilter, DeliveryFilter } from '@/shared/components';
 
-import { useFiltersStore } from '@/shared/store/filters';
+import { useFiltersStore } from '@/shared/store';
+import { useFiltersLogic } from '@/shared/hooks';
 
 import type { Brand } from '@prisma/client';
 
@@ -21,6 +22,8 @@ export const Filters = (props: Props) => {
   const { classname, brands, maxPrice, minPrice } = props;
 
   const filters = useFiltersStore();
+
+  useFiltersLogic();
 
   return (
     <div className={cn('bg-white px-4 py-6 rounded-2xl h-fit', classname)}>

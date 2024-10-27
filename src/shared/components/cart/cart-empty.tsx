@@ -9,7 +9,7 @@ export const CartEmpty = () => {
   return (
     <div className="flex flex-col justify-center items-center h-full bg-white rounded-lg p-4">
       <Image
-        src="/cart-empty.png"
+        src="/empty-cart.png"
         alt="Cart empty"
         width={300}
         height={300}

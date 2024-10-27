@@ -1,28 +1,34 @@
-import { CategoriesWithChildren } from '@/shared/api/queries/categories';
+import { ICategoriesWithChildren } from '@/shared/api/queries/categories';
 import { paths } from '@/shared/consts/paths';
 import Link from 'next/link';
 
 interface Props {
-  children: CategoriesWithChildren & {
+  categoryChildren: ICategoriesWithChildren & {
     brand: {
       id: number;
       slug: string;
       title: string;
     };
   };
-  currentCategory: CategoriesWithChildren;
-  subCategory: CategoriesWithChildren;
+  currentCategory: ICategoriesWithChildren;
+  subCategory: ICategoriesWithChildren;
+  onClose: () => void;
 }
 
-export const ChildCategoryItem = ({ children, currentCategory, subCategory }: Props) => {
+export const ChildCategoryItem = ({
+  categoryChildren,
+  currentCategory,
+  subCategory,
+  onClose,
+}: Props) => {
   return (
-    <li>
+    <li onClick={onClose}>
       <Link
         href={
-          `${paths.catalog}/${currentCategory.slug}/${subCategory.slug}/${children.slug}` +
-          `${children.brand ? '?brands=' + children.brand.slug : ''}`
+          `${paths.catalog}/${currentCategory.slug}/${subCategory.slug}/${categoryChildren.slug}` +
+          `${categoryChildren.brand ? '?brands=' + categoryChildren.brand.slug : ''}`
         }>
-        <p className="text-[12px] font-medium hover:text-primary">{children.title}</p>
+        <p className="text-[12px] font-medium hover:text-primary">{categoryChildren.title}</p>
       </Link>
     </li>
   );

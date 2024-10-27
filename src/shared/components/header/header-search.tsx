@@ -1,7 +1,7 @@
 'use client';
 
 import { Search } from 'lucide-react';
-import { Input } from '../ui';
+import { Input } from '@/shared/components';
 
 interface Props {}
 

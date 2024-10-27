@@ -8,19 +8,23 @@ import { cn } from '@/lib/utils';
 import { paths } from '@/shared/consts/paths';
 
 import type { Dispatch, SetStateAction } from 'react';
-import type { CategoriesWithChildren } from '@/shared/api/queries/categories';
+import type { ICategoriesWithChildren } from '@/shared/api/queries/categories';
 
 interface Props {
-  category: CategoriesWithChildren;
-  currentCategory?: CategoriesWithChildren;
-  setCurrentCategory: Dispatch<SetStateAction<CategoriesWithChildren | undefined>>;
+  category: ICategoriesWithChildren;
+  currentCategory?: ICategoriesWithChildren;
+  setCurrentCategory: Dispatch<SetStateAction<ICategoriesWithChildren | undefined>>;
+  onClose: () => void;
 }
 
-export const CategoryItem = ({ category, currentCategory, setCurrentCategory }: Props) => {
+export const CategoryItem = ({ category, currentCategory, setCurrentCategory, onClose }: Props) => {
   const debouncedHandle = debounce((category) => setCurrentCategory(category), 300);
 
   return (
-    <li onMouseEnter={() => debouncedHandle(category)} onMouseLeave={debouncedHandle.cancel}>
+    <li
+      onMouseEnter={() => debouncedHandle(category)}
+      onMouseLeave={debouncedHandle.cancel}
+      onClick={onClose}>
       <Link
         href={`${paths.catalog}/${category.slug}`}
         className={cn(

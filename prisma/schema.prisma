@@ -12,16 +12,19 @@ model User {
     id Int @id @default(autoincrement())
 
     fullName String
-    email    String   @unique
-    password String
-    role     UserRole @default(USER)
-    verified DateTime
+    email    String    @unique
+    password String?
+    role     UserRole  @default(USER)
+    verified DateTime?
+    phone    String?
+    address  String?
 
     provider   String?
     providerId String?
 
     cart             Cart?
     orders           Order[]
+    wishlist         Wishlist?
     verificationCode VerificationCode?
 
     createdAt DateTime @default(now())
@@ -66,6 +69,8 @@ model Product {
     brand   Brand? @relation(fields: [brandId], references: [id])
     brandId Int?
 
+    favoritedBy Wishlist[]
+
     categories Category[]
 
     cartItems CartItem[]
@@ -95,7 +100,7 @@ model Cart {
 
     items CartItem[]
 
-    token String
+    token String @unique
 
     totalAmount Int @default(0)
 
@@ -118,6 +123,20 @@ model CartItem {
     updatedAt DateTime @updatedAt
 }
 
+model Wishlist {
+    id Int @id @default(autoincrement())
+
+    user   User? @relation(fields: [userId], references: [id])
+    userId Int?  @unique
+
+    token String @unique
+
+    items Product[]
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
 model Order {
     id Int @id @default(autoincrement())
 
@@ -127,7 +146,7 @@ model Order {
     token String
 
     totalAmount Int
-    status      OrderStatus
+    status      OrderStatus @default(PENDING)
     paymentId   String?
 
     items Json
@@ -136,6 +155,7 @@ model Order {
     phone    String
     email    String
     address  String
+    comment  String?
 
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
@@ -148,6 +168,28 @@ model VerificationCode {
     userId Int  @unique
 
     code String
+
+    createdAt DateTime @default(now())
+
+    @@unique([userId, code])
+}
+
+model Story {
+    id              Int    @id @default(autoincrement())
+    previewImageUrl String
+
+    items StoryItem[]
+
+    createdAt DateTime @default(now())
+}
+
+model StoryItem {
+    id Int @id @default(autoincrement())
+
+    storyId Int
+    story   Story @relation(fields: [storyId], references: [id])
+
+    sourceUrl String
 
     createdAt DateTime @default(now())
 }

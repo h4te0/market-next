@@ -4,6 +4,7 @@ import * as React from 'react';
 import * as LabelPrimitive from '@radix-ui/react-label';
 import { Slot } from '@radix-ui/react-slot';
 import {
+  Control,
   Controller,
   ControllerProps,
   FieldPath,
@@ -13,7 +14,8 @@ import {
 } from 'react-hook-form';
 
 import { cn } from '@/lib/utils';
-import { Label } from '@/shared/components/ui/label';
+import { Label, Input, Textarea } from '@/shared/components';
+import { Eye, EyeOff } from 'lucide-react';
 
 const Form = FormProvider;
 
@@ -86,14 +88,11 @@ const FormLabel = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root>
 >(({ className, ...props }, ref) => {
   const { error, formItemId } = useFormField();
-
   return (
-    <Label
-      ref={ref}
-      className={cn(error && 'text-destructive', className)}
-      htmlFor={formItemId}
-      {...props}
-    />
+    <div className="flex gap-1 items-center">
+      <Label ref={ref} className={cn('font-bold', className)} htmlFor={formItemId} {...props} />
+      {error && <p className="text-destructive">*</p>}
+    </div>
   );
 });
 FormLabel.displayName = 'FormLabel';
@@ -156,9 +155,78 @@ const FormMessage = React.forwardRef<
 });
 FormMessage.displayName = 'FormMessage';
 
+type TFormInput = React.InputHTMLAttributes<HTMLInputElement | HTMLTextAreaElement> & {
+  control?: Control<any>;
+  name: string;
+  label?: string;
+  isTextarea?: boolean;
+  isPassword?: boolean;
+  className?: string;
+  children?: React.ReactNode;
+};
+
+const FormInput = ({
+  className,
+  control,
+  name,
+  label,
+  isTextarea = false,
+  isPassword = false,
+  children,
+  ...props
+}: TFormInput) => {
+  const [type, setType] = React.useState<'password' | 'text'>('password');
+  return (
+    <FormField
+      control={control}
+      name={name}
+      render={({ field }) => (
+        <FormItem>
+          <FormLabel>{label}</FormLabel>
+          <div className="flex relative">
+            <FormControl>
+              {children ||
+                (isTextarea ? (
+                  <Textarea className={cn(className)} {...field} {...props} />
+                ) : (
+                  <Input
+                    className={cn(className)}
+                    {...field}
+                    {...props}
+                    type={isPassword ? type : props.type}
+                  />
+                ))}
+            </FormControl>
+            {isPassword &&
+              (type === 'password' ? (
+                <div
+                  className="absolute right-2 top-2 cursor-pointer"
+                  onClick={() => {
+                    setType('text');
+                  }}>
+                  <Eye />
+                </div>
+              ) : (
+                <div
+                  className="absolute right-2 top-2 cursor-pointer"
+                  onClick={() => {
+                    setType('password');
+                  }}>
+                  <EyeOff />
+                </div>
+              ))}
+          </div>
+          <FormMessage />
+        </FormItem>
+      )}
+    />
+  );
+};
+
 export {
   useFormField,
   Form,
+  FormInput,
   FormItem,
   FormLabel,
   FormControl,

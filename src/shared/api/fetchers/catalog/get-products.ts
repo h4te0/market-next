@@ -1,10 +1,9 @@
 'use server';
 
-import Cookies from 'js-cookie';
-
 import { prisma } from '@/shared/api/prisma-client';
 
-import type { CartItem, Product } from '@prisma/client';
+import type { CartItem, Product, Wishlist } from '@prisma/client';
+import { cookies } from 'next/headers';
 
 interface Props {
   slug: string | undefined;
@@ -13,8 +12,17 @@ interface Props {
   searchParams: { [key: string]: string | undefined };
 }
 
-export interface IProductWithCart extends Product {
-  cartItems: CartItem[];
+export interface IWishlistWithItems extends Wishlist {
+  items: Product[];
+}
+
+export interface IProductWithWishlist extends Product {
+  favoritedBy: Wishlist[];
+}
+
+export interface IProductWithStuff extends Product {
+  cartItems?: CartItem[];
+  favoritedBy: IWishlistWithItems[];
 }
 
 export interface IFilterProps {
@@ -71,18 +79,28 @@ export const getProducts = async ({ slug, take = 8, skip = 0, searchParams }: Pr
     },
   });
 
-  const token = Cookies.get('cartToken');
+  const cartToken = cookies().get('cartToken')?.value;
+  const wishlistToken = cookies().get('wishlistToken')?.value;
 
   const res = await prisma.product.findMany({
     take,
     skip,
     orderBy: { title: 'asc' },
+
     include: {
       cartItems: {
         where: {
           cart: {
-            token,
+            token: cartToken,
           },
+        },
+      },
+      favoritedBy: {
+        where: {
+          token: wishlistToken,
+        },
+        include: {
+          items: true,
         },
       },
     },

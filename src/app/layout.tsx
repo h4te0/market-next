@@ -15,8 +15,8 @@ const RootLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <html lang="en">
-      <body className={nunito.className}>
+    <html lang="en" className="h-full">
+      <body className={nunito.className + ' h-full'}>
         <Provider>{children}</Provider>
       </body>
     </html>

@@ -64,7 +64,7 @@
     @apply border-border;
   }
   html {
-    scrollbar-gutter: stable;
+    /* scrollbar-gutter: stable; */
     @apply h-full;
   }
   ::-webkit-scrollbar {

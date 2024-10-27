@@ -4,22 +4,19 @@ import { ProductItem, Title } from '@/shared/components';
 
 import { getNounByCount } from '@/shared/helpers';
 
-import type { IProductWithCart } from '@/shared/api/fetchers/catalog';
+import type { IProductWithStuff } from '@/shared/api/fetchers/catalog';
+import { CatalogEmpty } from './catalog-empty';
 
 interface Props {
   classname?: string;
   catalogTitle?: string;
   total: number;
-  products: IProductWithCart[];
+  products: IProductWithStuff[];
 }
 
 export const ProductsList = ({ classname, products, catalogTitle, total }: Props) => {
   if (!products.length) {
-    return (
-      <div className="w-full h-full flex items-center justify-center">
-        <p className="text-2xl">К сожалению товаров не найдено 😢</p>
-      </div>
-    );
+    return <CatalogEmpty catalogTitle={catalogTitle} total={total} />;
   }
 
   return (
@@ -28,7 +25,7 @@ export const ProductsList = ({ classname, products, catalogTitle, total }: Props
         <Title size="md">{catalogTitle}</Title>
         <p className="text-sm">
           {getNounByCount(
-            products.length,
+            total,
             `Найден ${total} товар`,
             `Найдено ${total} товара`,
             `Найдено ${total} товаров`,

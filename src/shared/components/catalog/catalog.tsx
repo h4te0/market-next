@@ -1,15 +1,13 @@
 'use client';
 
-import { useFiltersLogic } from '@/shared/hooks/use-filters-logic';
-
 import { Filters, ProductsList, ProductsPagination } from '@/shared/components';
 
-import type { IPagination, IProductWithCart } from '@/shared/api/fetchers/catalog';
+import type { IPagination, IProductWithStuff } from '@/shared/api/fetchers/catalog';
 import type { Brand } from '@prisma/client';
 
 interface Props {
   productsListProps: {
-    products: IProductWithCart[];
+    products: IProductWithStuff[];
     total: number;
     catalogTitle: string;
   };
@@ -22,12 +20,9 @@ interface Props {
 }
 
 export const Catalog = (props: Props) => {
-  useFiltersLogic();
-
   return (
     <div className="grid grid-cols-12 gap-4">
       <Filters classname="col-span-3" {...props.filterProps} />
-
       <div className="col-span-9">
         <ProductsList {...props.productsListProps} />
         <ProductsPagination classname="my-4" {...props.paginationProps} />

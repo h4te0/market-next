@@ -3,30 +3,27 @@
 import { useState } from 'react';
 import { TextSearch, X } from 'lucide-react';
 
-import { Button } from '../ui';
-import { CategoriesMenu } from '../categories-menu';
+import { Button, CategoriesMenu } from '@/shared/components';
 
 export const HeaderCatalogButton = () => {
   const [isCatalogOpen, setIsCatalogOpen] = useState(false);
 
-  if (isCatalogOpen)
+  if (isCatalogOpen) {
     return (
       <>
-        <Button
-          variant="destructive"
-          className="mr-5"
-          onClick={() => setIsCatalogOpen(!isCatalogOpen)}>
+        <Button variant="destructive" className="mr-5" onClick={() => setIsCatalogOpen(false)}>
           <X />
           <p className="ml-3 font-bold">Каталог</p>
         </Button>
-        <CategoriesMenu />
+        <CategoriesMenu onClose={() => setIsCatalogOpen(false)} />
       </>
     );
-  else
+  } else {
     return (
-      <Button className="mr-5" onClick={() => setIsCatalogOpen(!isCatalogOpen)}>
+      <Button className="mr-5" onClick={() => setIsCatalogOpen(true)}>
         <TextSearch />
         <p className="ml-3 font-bold">Каталог</p>
       </Button>
     );
+  }
 };

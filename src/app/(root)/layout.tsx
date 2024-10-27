@@ -1,14 +1,15 @@
 import type { PropsWithChildren } from 'react';
 
-import { Header, Topbar } from '@/shared/components';
+import { Footer, Header, Topbar } from '@/shared/components';
 
 const Layout = ({ children }: PropsWithChildren<unknown>) => {
   return (
-    <main className="h-full">
+    <div className="min-h-full flex flex-col">
       <Topbar />
       <Header />
-      {children}
-    </main>
+      <main className="flex-auto">{children}</main>
+      <Footer />
+    </div>
   );
 };
 

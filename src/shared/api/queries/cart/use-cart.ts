@@ -1,21 +1,22 @@
 import axios from 'axios';
 import { useQuery } from '@tanstack/react-query';
 
-import type { Cart, CartItem, Product } from '@prisma/client';
+import type { Cart, CartItem } from '@prisma/client';
+import { IProductWithStuff } from '../../fetchers/catalog';
 
-export type CartItemsWithProducts = CartItem & {
-  product: Product;
-};
+export interface ICartItemsWithProducts extends CartItem {
+  product: IProductWithStuff;
+}
 
-export type CartWithItems = Cart & {
-  items: CartItemsWithProducts[];
+export interface ICartWithItems extends Cart {
+  items: ICartItemsWithProducts[];
   quantity: number;
-};
+}
 
 export const useCart = () => {
   return useQuery({
     queryKey: ['cart'],
-    queryFn: () => axios.get<CartWithItems>('/api/cart'),
+    queryFn: () => axios.get<ICartWithItems>('/api/cart'),
     select: ({ data }) => data,
   });
 };

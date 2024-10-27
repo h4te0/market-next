@@ -3,9 +3,9 @@ import { useQuery } from '@tanstack/react-query';
 
 import type { Category } from '@prisma/client';
 
-export type CategoriesWithChildren = Category & {
+export interface ICategoriesWithChildren extends Category {
   children: [
-    CategoriesWithChildren & {
+    ICategoriesWithChildren & {
       brand: {
         id: number;
         slug: string;
@@ -13,12 +13,12 @@ export type CategoriesWithChildren = Category & {
       };
     },
   ];
-};
+}
 
 export const useCategories = () => {
   return useQuery({
     queryKey: ['categories'],
-    queryFn: () => axios.get<CategoriesWithChildren[]>('/api/categories'),
+    queryFn: () => axios.get<ICategoriesWithChildren[]>('/api/categories'),
     select: ({ data }) => data,
   });
 };

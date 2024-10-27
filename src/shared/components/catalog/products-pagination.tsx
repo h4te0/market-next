@@ -2,7 +2,7 @@
 
 import { cn } from '@/lib/utils';
 
-import { usePaginationLogic } from '@/shared/hooks/use-pagination-logic';
+import { usePaginationLogic } from '@/shared/hooks';
 
 import {
   Pagination,

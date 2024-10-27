@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useRouter } from 'next-nprogress-bar';
 import qs from 'qs';
+
 import { useFiltersStore } from '@/shared/store/filters';
 
 export const useFiltersLogic = () => {

@@ -10,6 +10,7 @@ interface Props {
 
 export const BrandsFilter = ({ brands, selected, setSelected }: Props) => {
   if (brands.length === 0) return;
+
   return (
     <div className="mb-2">
       <AccordionItem value="brands">

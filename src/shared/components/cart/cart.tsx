@@ -4,11 +4,11 @@ import { useCartLogic } from '@/shared/hooks';
 import {
   CartEmpty,
   CartItem,
-  CartSkeleton,
+  Spinner,
   CartSummary,
   ClearCartButton,
   SelectAllCheckbox,
-} from '@/shared/components/cart';
+} from '@/shared/components';
 
 export const Cart = () => {
   const { cart, isLoading, isPending, selectionProps, handles, actions } = useCartLogic();
@@ -16,9 +16,9 @@ export const Cart = () => {
   const { handleClearCart, handleSelectAll } = handles;
   const { selectedItems } = selectionProps;
 
-  if (isLoading) return <CartSkeleton />;
+  if (isLoading) return <Spinner size="large" />;
 
-  if (!cart?.items.length) return <CartEmpty />;
+  if (!cart?.items?.length) return <CartEmpty />;
 
   return (
     <div className="flex justify-between">
@@ -44,7 +44,7 @@ export const Cart = () => {
           />
         ))}
       </div>
-      <CartSummary cart={cart} isDisabled={isPending} />
+      <CartSummary totalAmount={cart.totalAmount} quantity={cart.quantity} isDisabled={isPending} />
     </div>
   );
 };

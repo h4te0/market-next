@@ -1,23 +1,33 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { prisma } from '@/shared/api/prisma-client';
+import { getServerSession } from 'next-auth';
 import crypto from 'crypto';
+
+import { prisma } from '@/shared/api/prisma-client';
 
 import { findOrCreateCart } from '@/shared/helpers/find-or-create-cart';
 import { updateCartTotalAmount } from '@/shared/helpers/update-cart-total-amount';
+import { getCurrentUser } from '@/shared/helpers/get-current-user';
+import { CartItem } from '@prisma/client';
 
 export async function GET(req: NextRequest) {
   try {
-    const token = req.cookies.get('cartToken')?.value;
+    const cartToken = req.cookies.get('cartToken')?.value;
+    const wishlistToken = req.cookies.get('wishlistToken')?.value;
 
-    if (!token) {
+    if (!cartToken) {
       return NextResponse.json({ totalAmount: 0, items: [] });
     }
+
+    const currentUser = await getCurrentUser();
 
     const userCart = await prisma.cart.findFirst({
       where: {
         OR: [
           {
-            token,
+            userId: currentUser?.id,
+          },
+          {
+            token: cartToken,
           },
         ],
       },
@@ -27,7 +37,16 @@ export async function GET(req: NextRequest) {
             id: 'asc',
           },
           include: {
-            product: true,
+            product: {
+              include: {
+                favoritedBy: {
+                  where: {
+                    token: wishlistToken,
+                  },
+                  include: { items: true },
+                },
+              },
+            },
           },
         },
       },
@@ -35,14 +54,13 @@ export async function GET(req: NextRequest) {
     const totalItems = await prisma.cartItem.aggregate({
       where: {
         cart: {
-          token,
+          token: cartToken,
         },
       },
       _sum: {
         quantity: true,
       },
     });
-    console.log(totalItems);
 
     return NextResponse.json({ ...userCart, ...totalItems._sum });
   } catch (error) {
@@ -53,15 +71,31 @@ export async function GET(req: NextRequest) {
 
 export async function POST(req: NextRequest) {
   try {
-    let token = req.cookies.get('cartToken')?.value;
+    let cartToken = req.cookies.get('cartToken')?.value;
 
-    if (!token) {
-      token = crypto.randomUUID();
+    const session = await getServerSession();
+
+    const user =
+      session &&
+      (await prisma.user.findFirst({
+        where: {
+          email: session?.user?.email || undefined,
+        },
+        include: { cart: true },
+      }));
+
+    if (user?.cart?.token) {
+      cartToken = user.cart?.token;
+      req.cookies.set('cartToken', user.cart?.token);
     }
 
-    const userCart = await findOrCreateCart(token);
+    if (!cartToken) {
+      cartToken = crypto.randomUUID();
+    }
 
-    const data = await req.json();
+    const userCart = await findOrCreateCart(cartToken);
+
+    const data = (await req.json()) as CartItem;
 
     const findCartItem = await prisma.cartItem.findFirst({
       where: {
@@ -89,10 +123,10 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    const updatedUserCart = await updateCartTotalAmount(token);
+    const updatedUserCart = await updateCartTotalAmount(cartToken);
 
     const res = NextResponse.json(updatedUserCart);
-    res.cookies.set('cartToken', token, { maxAge: 60 * 60 * 24 * 365 });
+    res.cookies.set('cartToken', cartToken, { maxAge: 60 * 60 * 24 * 30 });
 
     return res;
   } catch (error) {
@@ -103,10 +137,10 @@ export async function POST(req: NextRequest) {
 
 export async function DELETE(req: NextRequest) {
   try {
-    const token = req.cookies.get('cartToken')?.value;
+    const cartToken = req.cookies.get('cartToken')?.value;
 
-    if (!token) {
-      return NextResponse.json({ error: 'Cart token not found' });
+    if (!cartToken) {
+      return NextResponse.json({ error: 'Токен не найден' });
     }
 
     const data = await req.json();
@@ -119,7 +153,7 @@ export async function DELETE(req: NextRequest) {
       },
     });
 
-    const updatedUserCart = await updateCartTotalAmount(token);
+    const updatedUserCart = await updateCartTotalAmount(cartToken);
 
     return NextResponse.json(updatedUserCart);
   } catch (error) {

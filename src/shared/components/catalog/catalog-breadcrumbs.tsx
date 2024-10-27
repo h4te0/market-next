@@ -16,7 +16,7 @@ interface Props {
   }[];
 }
 
-export const CatalogBreadcrumbs = async ({ currentCategories }: Props) => {
+export const CatalogBreadcrumbs = ({ currentCategories }: Props) => {
   return (
     <Breadcrumb className="mb-4">
       <BreadcrumbList>
